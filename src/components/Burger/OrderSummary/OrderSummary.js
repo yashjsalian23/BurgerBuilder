@@ -11,6 +11,7 @@ const ingredientSummary = Object.keys(props.ingredient).map(igkey => <li key={ig
                 <ul>
                     {ingredientSummary}
                 </ul>
+                     <p><strong>Total Price: INR {props.price}</strong></p>
                 <p>Continue to Checkout ?</p>
             </div>
         </Aux>
