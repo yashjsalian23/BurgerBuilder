@@ -13,7 +13,7 @@ const Modal = (props) =>{
             opacity: props.show ? '1' : '0'
             }}>
         {props.children}
-        <Button btnType="Success">Proceed</Button>
+        <Button btnType="Success" clicked={props.continue}>Proceed</Button>
         <Button clicked={props.modalClosed} btnType="Danger">Cancel</Button>
         </div>
     </Aux>
